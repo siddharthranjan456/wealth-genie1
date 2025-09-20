@@ -1,0 +1,11 @@
+altair
+faiss-cpu
+groq
+joblib
+numpy
+pandas
+sentence-transformers
+scikit-learn
+streamlit
+tensorflow
+yfinance

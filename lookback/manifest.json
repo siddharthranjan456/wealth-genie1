@@ -1,0 +1,146 @@
+[
+  {
+    "ticker": "AAPL",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-AAPL/inference_input_lookback60.csv",
+    "model_path": "./artifacts/AAPL_lstm_returns.keras"
+  },
+  {
+    "ticker": "MSFT",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-MSFT/inference_input_lookback60.csv",
+    "model_path": "./artifacts/MSFT_lstm_returns.keras"
+  },
+  {
+    "ticker": "NVDA",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-NVDA/inference_input_lookback60.csv",
+    "model_path": "./artifacts/NVDA_lstm_returns.keras"
+  },
+  {
+    "ticker": "AMZN",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-AMZN/inference_input_lookback60.csv",
+    "model_path": "./artifacts/AMZN_lstm_returns.keras"
+  },
+  {
+    "ticker": "META",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-META/inference_input_lookback60.csv",
+    "model_path": "./artifacts/META_lstm_returns.keras"
+  },
+  {
+    "ticker": "GOOGL",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-GOOGL/inference_input_lookback60.csv",
+    "model_path": "./artifacts/GOOGL_lstm_returns.keras"
+  },
+  {
+    "ticker": "JPM",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-JPM/inference_input_lookback60.csv",
+    "model_path": "./artifacts/JPM_lstm_returns.keras"
+  },
+  {
+    "ticker": "V",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-V/inference_input_lookback60.csv",
+    "model_path": "./artifacts/V_lstm_returns.keras"
+  },
+  {
+    "ticker": "XOM",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-XOM/inference_input_lookback60.csv",
+    "model_path": "./artifacts/XOM_lstm_returns.keras"
+  },
+  {
+    "ticker": "KO",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-KO/inference_input_lookback60.csv",
+    "model_path": "./artifacts/KO_lstm_returns.keras"
+  },
+  {
+    "ticker": "GLD",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-GLD/inference_input_lookback60.csv",
+    "model_path": "./artifacts/GLD_lstm_returns.keras"
+  },
+  {
+    "ticker": "IAU",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-IAU/inference_input_lookback60.csv",
+    "model_path": "./artifacts/IAU_lstm_returns.keras"
+  },
+  {
+    "ticker": "GDX",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-GDX/inference_input_lookback60.csv",
+    "model_path": "./artifacts/GDX_lstm_returns.keras"
+  },
+  {
+    "ticker": "BTC-USD",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-BTC-USD/inference_input_lookback60.csv",
+    "model_path": "./artifacts/BTC-USD_lstm_returns.keras"
+  },
+  {
+    "ticker": "ETH-USD",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-ETH-USD/inference_input_lookback60.csv",
+    "model_path": "./artifacts/ETH-USD_lstm_returns.keras"
+  },
+  {
+    "ticker": "SOL-USD",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-SOL-USD/inference_input_lookback60.csv",
+    "model_path": "./artifacts/SOL-USD_lstm_returns.keras"
+  },
+  {
+    "ticker": "ADA-USD",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-ADA-USD/inference_input_lookback60.csv",
+    "model_path": "./artifacts/ADA-USD_lstm_returns.keras"
+  },
+  {
+    "ticker": "AVAX-USD",
+    "status": "ok",
+    "lookback": 60,
+    "rows_written": 61,
+    "csv_path": "/content/drive/MyDrive/WealthGenie/lookback_inputs/lookback_run_2025-09-05_064158/artifacts-AVAX-USD/inference_input_lookback60.csv",
+    "model_path": "./artifacts/AVAX-USD_lstm_returns.keras"
+  }
+]

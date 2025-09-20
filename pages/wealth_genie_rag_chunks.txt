@@ -1,0 +1,48 @@
+📌 Chunk 1: Risk Score Calculation in Wealth Genie
+Wealth Genie uses a 13-question quiz to assess user risk tolerance. Each question contributes between 1 to 4 points based on the investor’s willingness to take risk. The total score ranges from 13 to 52 and is mapped to a normalized scale between 0.0 and 1.0 using a piecewise linear function. This normalized risk score reflects how aggressive or conservative the investor is and directly affects portfolio optimization.
+
+📌 Chunk 2: Risk Score Normalization Logic
+Wealth Genie maps the raw score (13–52) to a normalized value using breakpoints:
+- 0–18 → scaled to 0–0.2  
+- 18–22 → scaled to 0.2–0.4  
+- 22–28 → scaled to 0.4–0.6  
+- 28–32 → scaled to 0.6–0.8  
+- 32–45+ → scaled to 0.8–1.0  
+This transformation ensures that more risk-seeking users get higher risk weights in portfolio calculations.
+
+📌 Chunk 3: Sentiment Analysis via Financial Indicators
+Sentiment in Wealth Genie is inferred using price-based indicators such as:
+- Daily returns  
+- Moving Averages (MA20, MA50, MA200)  
+- Momentum over 10, 30, and 90 days  
+- Volatility (short and long-term)  
+- RSI and MACD
+
+These technical indicators represent market optimism or pessimism. They are standardized using `StandardScaler` and fed into pre-trained ML models that output future price predictions. The predicted return over the current price acts as a proxy for sentiment.
+
+📌 Chunk 4: Predictive Sentiment in Action
+Each ticker (e.g., AAPL, BTC-USD, GLD) is analyzed with up-to-date Yahoo Finance data. The model predicts a future price using engineered features. The return is calculated as:
+
+Predicted Return (%) = (Predicted Price / Current Price - 1) × 100
+
+Positive returns reflect market optimism (bullish sentiment), and negative returns indicate bearish sentiment.
+
+📌 Chunk 5: Modern Portfolio Theory in Wealth Genie
+Wealth Genie applies MPT (Modern Portfolio Theory) to optimize asset allocation. The optimization goal is:
+
+Minimize: -Return + λ × Risk
+
+Where:
+- Return = weights.dot(expected_returns)  
+- Risk = weights.dot(covariance_matrix).dot(weights)  
+- λ = (1 - normalized_risk_score) × 10
+
+This equation balances the trade-off between maximizing returns and minimizing risk, adjusting dynamically based on the user’s risk profile.
+
+📌 Chunk 6: Asset Classes and Allocation
+Assets in Wealth Genie are grouped into:
+- Gold ETFs (e.g., GLD, IAU)  
+- Stocks (e.g., AAPL, TSLA, AMZN)  
+- Cryptocurrencies (e.g., BTC-USD, ETH-USD)
+
+The total investment amount is allocated proportionally using optimized weights from the mean-variance optimization process. Asset predictions guide which specific tickers are recommended based on predicted returns.

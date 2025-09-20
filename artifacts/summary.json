@@ -1,0 +1,632 @@
+{
+  "AAPL": {
+    "ticker": "AAPL",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 2.5817673206329346,
+      "RMSE": 3.684161857412588,
+      "MAPE": 1.1585564613342285,
+      "Naive_MAE": 2.6128180027008057,
+      "Naive_RMSE": 3.7977987037093586,
+      "Naive_MAPE": 1.1719131469726562,
+      "DirAcc": 0.5333333611488342
+    },
+    "test_metrics_blend": {
+      "MAE": 2.5817673206329346,
+      "RMSE": 3.684161857412588,
+      "MAPE": 1.1585564613342285
+    },
+    "last_close": 239.77999877929688,
+    "forecast_prices": [
+      240.13410431971866,
+      240.4109626021728,
+      240.64325300919833
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AAPL/AAPL_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AAPL/AAPL_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AAPL/AAPL_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AAPL/AAPL_test_predictions.csv"
+    }
+  },
+  "MSFT": {
+    "ticker": "MSFT",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 4.287876605987549,
+      "RMSE": 5.912797155030198,
+      "MAPE": 0.8253360986709595,
+      "Naive_MAE": 4.188749313354492,
+      "Naive_RMSE": 5.89598103081021,
+      "Naive_MAPE": 0.8056090474128723,
+      "DirAcc": 0.46666666865348816
+    },
+    "test_metrics_blend": {
+      "MAE": 4.287876605987549,
+      "RMSE": 5.912797155030198,
+      "MAPE": 0.8253360986709595
+    },
+    "last_close": 507.9700012207031,
+    "forecast_prices": [
+      508.4181902141967,
+      508.8675214106934,
+      509.31952548978643
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/MSFT/MSFT_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/MSFT/MSFT_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/MSFT/MSFT_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/MSFT/MSFT_test_predictions.csv"
+    }
+  },
+  "NVDA": {
+    "ticker": "NVDA",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 2.1523854732513428,
+      "RMSE": 2.780383800249648,
+      "MAPE": 1.216475486755371,
+      "Naive_MAE": 2.078002452850342,
+      "Naive_RMSE": 2.710549098617405,
+      "Naive_MAPE": 1.171913981437683,
+      "DirAcc": 0.46666666865348816
+    },
+    "test_metrics_blend": {
+      "MAE": 2.1523854732513428,
+      "RMSE": 2.780383800249648,
+      "MAPE": 1.216475486755371
+    },
+    "last_close": 171.66000366210938,
+    "forecast_prices": [
+      172.3805337246939,
+      173.0501400488517,
+      173.69397117589173
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/NVDA/NVDA_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/NVDA/NVDA_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/NVDA/NVDA_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/NVDA/NVDA_test_predictions.csv"
+    }
+  },
+  "AMZN": {
+    "ticker": "AMZN",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 3.134948253631592,
+      "RMSE": 4.949571363598024,
+      "MAPE": 1.3958239555358887,
+      "Naive_MAE": 3.2050063610076904,
+      "Naive_RMSE": 5.0198418784600385,
+      "Naive_MAPE": 1.4256449937820435,
+      "DirAcc": 0.5666666626930237
+    },
+    "test_metrics_blend": {
+      "MAE": 3.134948253631592,
+      "RMSE": 4.949571363598024,
+      "MAPE": 1.3958239555358887
+    },
+    "last_close": 235.67999267578125,
+    "forecast_prices": [
+      235.90552201391296,
+      236.0176490329745,
+      236.18116822341173
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AMZN/AMZN_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AMZN/AMZN_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AMZN/AMZN_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AMZN/AMZN_test_predictions.csv"
+    }
+  },
+  "META": {
+    "ticker": "META",
+    "alpha": 0.55,
+    "test_metrics_model": {
+      "MAE": 11.82845687866211,
+      "RMSE": 18.115916534494346,
+      "MAPE": 1.5631927251815796,
+      "Naive_MAE": 11.484319686889648,
+      "Naive_RMSE": 18.353857216046748,
+      "Naive_MAPE": 1.5133689641952515,
+      "DirAcc": 0.5
+    },
+    "test_metrics_blend": {
+      "MAE": 11.559537887573242,
+      "RMSE": 18.180019872337702,
+      "MAPE": 1.5252161026000977
+    },
+    "last_close": 748.6500244140625,
+    "forecast_prices": [
+      751.168447360199,
+      753.4895816038853,
+      755.6995611652197
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/META/META_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/META/META_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/META/META_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/META/META_test_predictions.csv"
+    }
+  },
+  "GOOGL": {
+    "ticker": "GOOGL",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 2.598673105239868,
+      "RMSE": 4.359816443402866,
+      "MAPE": 1.2482112646102905,
+      "Naive_MAE": 2.5796661376953125,
+      "Naive_RMSE": 4.357249627156389,
+      "Naive_MAPE": 1.2416408061981201,
+      "DirAcc": 0.46666666865348816
+    },
+    "test_metrics_blend": {
+      "MAE": 2.598673105239868,
+      "RMSE": 4.359816443402866,
+      "MAPE": 1.2482112646102905
+    },
+    "last_close": 232.3000030517578,
+    "forecast_prices": [
+      231.1766709652587,
+      230.3183087783067,
+      229.68937176943916
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GOOGL/GOOGL_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GOOGL/GOOGL_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GOOGL/GOOGL_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GOOGL/GOOGL_test_predictions.csv"
+    }
+  },
+  "JPM": {
+    "ticker": "JPM",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 2.272536277770996,
+      "RMSE": 2.8342653499368295,
+      "MAPE": 0.7729452848434448,
+      "Naive_MAE": 2.2520010471343994,
+      "Naive_RMSE": 2.8180580321726647,
+      "Naive_MAPE": 0.7653399109840393,
+      "DirAcc": 0.5
+    },
+    "test_metrics_blend": {
+      "MAE": 2.272536277770996,
+      "RMSE": 2.8342653499368295,
+      "MAPE": 0.7729452848434448
+    },
+    "last_close": 303.82000732421875,
+    "forecast_prices": [
+      304.3185250316675,
+      304.79024327314653,
+      305.24291006550635
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/JPM/JPM_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/JPM/JPM_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/JPM/JPM_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/JPM/JPM_test_predictions.csv"
+    }
+  },
+  "V": {
+    "ticker": "V",
+    "alpha": 0.30000000000000004,
+    "test_metrics_model": {
+      "MAE": 3.0469746589660645,
+      "RMSE": 3.750139233865386,
+      "MAPE": 0.8870646357536316,
+      "Naive_MAE": 2.5263540744781494,
+      "Naive_RMSE": 3.269423178797463,
+      "Naive_MAPE": 0.7357556819915771,
+      "DirAcc": 0.4333333373069763
+    },
+    "test_metrics_blend": {
+      "MAE": 2.5781352519989014,
+      "RMSE": 3.264370179820058,
+      "MAPE": 0.750938355922699
+    },
+    "last_close": 350.989990234375,
+    "forecast_prices": [
+      353.7004085263379,
+      356.9780435720275,
+      360.35286273438413
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/V/V_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/V/V_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/V/V_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/V/V_test_predictions.csv"
+    }
+  },
+  "XOM": {
+    "ticker": "XOM",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 0.8660268187522888,
+      "RMSE": 1.0908508569715003,
+      "MAPE": 0.7910767793655396,
+      "Naive_MAE": 0.8802192807197571,
+      "Naive_RMSE": 1.1017474837580634,
+      "Naive_MAPE": 0.8042568564414978,
+      "DirAcc": 0.5333333611488342
+    },
+    "test_metrics_blend": {
+      "MAE": 0.8660268187522888,
+      "RMSE": 1.0908508569715003,
+      "MAPE": 0.7910767793655396
+    },
+    "last_close": 112.4000015258789,
+    "forecast_prices": [
+      112.38943989179339,
+      112.41069768837353,
+      112.45627709058074
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/XOM/XOM_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/XOM/XOM_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/XOM/XOM_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/XOM/XOM_test_predictions.csv"
+    }
+  },
+  "KO": {
+    "ticker": "KO",
+    "alpha": 0.0,
+    "test_metrics_model": {
+      "MAE": 0.4972035586833954,
+      "RMSE": 0.6350214281371489,
+      "MAPE": 0.7181723117828369,
+      "Naive_MAE": 0.5003328919410706,
+      "Naive_RMSE": 0.6349407247977191,
+      "Naive_MAPE": 0.722576379776001,
+      "DirAcc": 0.5666666626930237
+    },
+    "test_metrics_blend": {
+      "MAE": 0.5003328919410706,
+      "RMSE": 0.6349407247977191,
+      "MAPE": 0.722576379776001
+    },
+    "last_close": 68.25,
+    "forecast_prices": [
+      68.24338616093927,
+      68.2369149079746,
+      68.22934477373023
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/KO/KO_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/KO/KO_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/KO/KO_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/KO/KO_test_predictions.csv"
+    }
+  },
+  "GLD": {
+    "ticker": "GLD",
+    "alpha": 0.8,
+    "test_metrics_model": {
+      "MAE": 2.1614012718200684,
+      "RMSE": 2.781438671099042,
+      "MAPE": 0.6938927173614502,
+      "Naive_MAE": 2.1476633548736572,
+      "Naive_RMSE": 2.7834131636754322,
+      "Naive_MAPE": 0.6888934373855591,
+      "DirAcc": 0.5333333611488342
+    },
+    "test_metrics_blend": {
+      "MAE": 2.1559317111968994,
+      "RMSE": 2.7777519087116684,
+      "MAPE": 0.6920085549354553
+    },
+    "last_close": 326.69000244140625,
+    "forecast_prices": [
+      326.8520219679857,
+      327.0702491551839,
+      327.32629576992326
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GLD/GLD_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GLD/GLD_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GLD/GLD_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GLD/GLD_test_predictions.csv"
+    }
+  },
+  "IAU": {
+    "ticker": "IAU",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 0.44036051630973816,
+      "RMSE": 0.5707350954974496,
+      "MAPE": 0.6903676986694336,
+      "Naive_MAE": 0.4379997253417969,
+      "Naive_RMSE": 0.5693212019778463,
+      "Naive_MAPE": 0.686177134513855,
+      "DirAcc": 0.5333333611488342
+    },
+    "test_metrics_blend": {
+      "MAE": 0.44036051630973816,
+      "RMSE": 0.5707350954974496,
+      "MAPE": 0.6903676986694336
+    },
+    "last_close": 66.91000366210938,
+    "forecast_prices": [
+      66.90584958165711,
+      66.92554868344601,
+      66.96372999816774
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/IAU/IAU_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/IAU/IAU_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/IAU/IAU_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/IAU/IAU_test_predictions.csv"
+    }
+  },
+  "GDX": {
+    "ticker": "GDX",
+    "alpha": 0.75,
+    "test_metrics_model": {
+      "MAE": 0.814666748046875,
+      "RMSE": 1.02569215246685,
+      "MAPE": 1.4159631729125977,
+      "Naive_MAE": 0.820999801158905,
+      "Naive_RMSE": 1.0297357249797447,
+      "Naive_MAPE": 1.4275038242340088,
+      "DirAcc": 0.46666666865348816
+    },
+    "test_metrics_blend": {
+      "MAE": 0.8162505030632019,
+      "RMSE": 1.0262828033631581,
+      "MAPE": 1.418848991394043
+    },
+    "last_close": 64.56999969482422,
+    "forecast_prices": [
+      64.5388338827281,
+      64.46904005998755,
+      64.37673819487951
+    ],
+    "counts": {
+      "train": 632,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GDX/GDX_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GDX/GDX_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GDX/GDX_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/GDX/GDX_test_predictions.csv"
+    }
+  },
+  "BTC-USD": {
+    "ticker": "BTC-USD",
+    "alpha": 0.30000000000000004,
+    "test_metrics_model": {
+      "MAE": 1632.2130126953125,
+      "RMSE": 2119.935966014068,
+      "MAPE": 1.4225234985351562,
+      "Naive_MAE": 1659.446044921875,
+      "Naive_RMSE": 2135.666640653452,
+      "Naive_MAPE": 1.4464350938796997,
+      "DirAcc": 0.5333333611488342
+    },
+    "test_metrics_blend": {
+      "MAE": 1649.0142822265625,
+      "RMSE": 2129.0369888754867,
+      "MAPE": 1.4373365640640259
+    },
+    "last_close": 111659.8125,
+    "forecast_prices": [
+      111701.57438791772,
+      111748.88911010405,
+      111807.82428638249
+    ],
+    "counts": {
+      "train": 976,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/BTC-USD/BTC-USD_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/BTC-USD/BTC-USD_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/BTC-USD/BTC-USD_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/BTC-USD/BTC-USD_test_predictions.csv"
+    }
+  },
+  "ETH-USD": {
+    "ticker": "ETH-USD",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 140.68475341796875,
+      "RMSE": 195.4242780145292,
+      "MAPE": 3.1937320232391357,
+      "Naive_MAE": 142.3718719482422,
+      "Naive_RMSE": 197.42466917789176,
+      "Naive_MAPE": 3.2289772033691406,
+      "DirAcc": 0.6000000238418579
+    },
+    "test_metrics_blend": {
+      "MAE": 140.68475341796875,
+      "RMSE": 195.4242780145292,
+      "MAPE": 3.1937320232391357
+    },
+    "last_close": 4336.4248046875,
+    "forecast_prices": [
+      4343.777701251798,
+      4350.467415401699,
+      4356.9940497804955
+    ],
+    "counts": {
+      "train": 976,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/ETH-USD/ETH-USD_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/ETH-USD/ETH-USD_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/ETH-USD/ETH-USD_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/ETH-USD/ETH-USD_test_predictions.csv"
+    }
+  },
+  "SOL-USD": {
+    "ticker": "SOL-USD",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 7.242880344390869,
+      "RMSE": 8.83123864823116,
+      "MAPE": 3.7589874267578125,
+      "Naive_MAE": 7.240000247955322,
+      "Naive_RMSE": 8.78187640253574,
+      "Naive_MAPE": 3.7562503814697266,
+      "DirAcc": 0.5666666626930237
+    },
+    "test_metrics_blend": {
+      "MAE": 7.242880344390869,
+      "RMSE": 8.83123864823116,
+      "MAPE": 3.7589874267578125
+    },
+    "last_close": 204.2039031982422,
+    "forecast_prices": [
+      204.40885289652442,
+      204.63675083669386,
+      204.8774604398531
+    ],
+    "counts": {
+      "train": 976,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/SOL-USD/SOL-USD_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/SOL-USD/SOL-USD_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/SOL-USD/SOL-USD_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/SOL-USD/SOL-USD_test_predictions.csv"
+    }
+  },
+  "ADA-USD": {
+    "ticker": "ADA-USD",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 0.02839234657585621,
+      "RMSE": 0.03660991180093935,
+      "MAPE": 3.298421621322632,
+      "Naive_MAE": 0.028703758493065834,
+      "Naive_RMSE": 0.03662217138612193,
+      "Naive_MAPE": 3.332737445831299,
+      "DirAcc": 0.5
+    },
+    "test_metrics_blend": {
+      "MAE": 0.02839234657585621,
+      "RMSE": 0.03660991180093935,
+      "MAPE": 3.298421621322632
+    },
+    "last_close": 0.8171976804733276,
+    "forecast_prices": [
+      0.8158192760307427,
+      0.8145191481824532,
+      0.8132883359393455
+    ],
+    "counts": {
+      "train": 976,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/ADA-USD/ADA-USD_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/ADA-USD/ADA-USD_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/ADA-USD/ADA-USD_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/ADA-USD/ADA-USD_test_predictions.csv"
+    }
+  },
+  "AVAX-USD": {
+    "ticker": "AVAX-USD",
+    "alpha": 1.0,
+    "test_metrics_model": {
+      "MAE": 0.921608030796051,
+      "RMSE": 1.11606771196019,
+      "MAPE": 3.832369327545166,
+      "Naive_MAE": 0.8947392106056213,
+      "Naive_RMSE": 1.0816257970364604,
+      "Naive_MAPE": 3.720855712890625,
+      "DirAcc": 0.30000001192092896
+    },
+    "test_metrics_blend": {
+      "MAE": 0.921608030796051,
+      "RMSE": 1.11606771196019,
+      "MAPE": 3.832369327545166
+    },
+    "last_close": 24.44247817993164,
+    "forecast_prices": [
+      24.422156211608296,
+      24.397075974752745,
+      24.367823729813626
+    ],
+    "counts": {
+      "train": 976,
+      "val": 30,
+      "test": 30
+    },
+    "paths": {
+      "model": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AVAX-USD/AVAX-USD_model.keras",
+      "scaler": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AVAX-USD/AVAX-USD_scaler.joblib",
+      "history": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AVAX-USD/AVAX-USD_history.json",
+      "test_preds": "/content/drive/MyDrive/WealthGenie/artifacts/run_2025-09-05_054008/AVAX-USD/AVAX-USD_test_predictions.csv"
+    }
+  }
+}
